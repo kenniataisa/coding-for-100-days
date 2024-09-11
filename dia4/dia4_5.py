@@ -1,6 +1,3 @@
-from curses import beep
-
-
 def tabuada(opcao, num1, num2):
 
     if opcao == 1:
