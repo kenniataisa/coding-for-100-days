@@ -9,7 +9,7 @@ def main():
     print("   Celsius x Fahrenheit ")
     temperatura = float(input("Insira a temperatura em Celsius: "))
     
-    print(f"{temperatura}° Celsius em Fhrenheit corresponde a {celsius_fahrenheit(temperatura)} F")
+    print(f"{temperatura}°C corresponde a {celsius_fahrenheit(temperatura)}°F")
 
 if __name__ == "__main__":
     main()
