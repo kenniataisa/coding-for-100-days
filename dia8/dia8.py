@@ -1,6 +1,3 @@
-from websocket import frame_buffer
-
-
 def celsius_fahrenheit(temperatura):
     return ((temperatura * 9) / 5) + 32
 
