@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(2,8,4 / 0.90);
+    font-family: San Francisco;
+}
+    
+
+.digital-clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: black;
+
+}
+
+#clock {
+    background-color: white;
+    width: auto;
+    padding: 100px 100px;
+    text-align: center;
+    font-size: 100px;
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
