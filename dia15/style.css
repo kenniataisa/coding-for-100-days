@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    background-color: #02f7b9;
+}
+
+.container {
+    border-radius: 10px;
+    width: 550px;
+    padding: 40px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(51, 51, 51);
+}
+
+.container textarea {
+    margin-bottom: 20px;
+    resize: none;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.container p {
+    display: contents; 
+    font-size: 20px;
+    color: #333;
+}
+
+.container p .count {
+    font-size: 24px;
+    color: #F00;
+    margin-left: 10px;
+    font-weight: 600;
+}
